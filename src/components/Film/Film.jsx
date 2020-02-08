@@ -9,9 +9,6 @@ import CardContent from '@material-ui/core/CardContent';
 import Collapse from '@material-ui/core/Collapse';
 import Typography from '@material-ui/core/Typography';
 import { red } from '@material-ui/core/colors';
-import List from "@material-ui/core/List";
-import ListItem from "@material-ui/core/ListItem";
-import Planets from "./Planets";
 
 
 
@@ -32,7 +29,7 @@ const Films =(props)=>{
     };
 
     return(
-        <Grid item xs={6}>
+        <Grid item lg={6} md={12} xs={12}>
             <Card raised={true} onClick={handleExpandClick}>
                 <CardHeader
                     title={props.film.title}

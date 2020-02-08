@@ -6,8 +6,6 @@ import Grid from "@material-ui/core/Grid";
 import Find from "../Find/Find";
 import CircularProgress from "@material-ui/core/CircularProgress";
 import {alphabetSort} from "../../redux/alphabetSort-reducer";
-import {deleteData} from "../../redux/planets-reducers";
-import Planets from "../Film/Planets";
 
 
 

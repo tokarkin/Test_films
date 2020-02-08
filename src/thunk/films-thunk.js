@@ -13,7 +13,6 @@ export const getPlanets = (data,id) =>{
     return (dispatch) =>{
          data.forEach(el=>
         filmApi.getPlanets(el).then(data => {
-            console.log(data);
             dispatch(setPlanets(data,id))
     } ));
     }
